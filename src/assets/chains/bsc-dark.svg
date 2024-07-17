@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2" fill="#EFBA2F">
+            <circle fill-opacity="0.1" cx="15" cy="15" r="15"></circle>
+            <g transform="translate(4.000000, 4.000000)" fill-rule="nonzero">
+                <polygon transform="translate(11.000000, 10.597070) rotate(45.000000) translate(-11.000000, -10.597070) " points="8.98534809 8.58241761 13.0146521 8.58241761 13.0146521 12.6117216 8.98534809 12.6117216"></polygon>
+                <polygon transform="translate(2.941392, 10.635829) rotate(45.000000) translate(-2.941392, -10.635829) " points="0.926739961 8.62117721 4.956044 8.62117721 4.956044 12.6504812 0.926739961 12.6504812"></polygon>
+                <polygon transform="translate(8.985348, 4.754579) rotate(45.000000) translate(-8.985348, -4.754579) " points="6.97069607 0.120879162 11.0000001 0.120879162 11.0000001 9.38827843 6.97069607 9.38827843"></polygon>
+                <polygon transform="translate(12.774427, 4.793338) scale(-1, 1) rotate(-135.000000) translate(-12.774427, -4.793338) " points="10.7597754 0.159638734 14.7890794 0.159638734 14.7890794 9.427038 10.7597754 9.427038"></polygon>
+                <polygon transform="translate(12.774428, 16.881250) rotate(-135.000000) translate(-12.774428, -16.881250) " points="10.7597756 12.2475509 14.7890796 12.2475509 14.7890796 21.5149501 10.7597756 21.5149501"></polygon>
+                <polygon transform="translate(8.985348, 16.842491) scale(-1, 1) rotate(45.000000) translate(-8.985348, -16.842491) " points="6.97069595 12.2087913 11 12.2087913 11 21.4761906 6.97069595 21.4761906"></polygon>
+                <polygon transform="translate(19.058608, 10.635829) rotate(45.000000) translate(-19.058608, -10.635829) " points="17.0439561 8.62117703 21.0732602 8.62117703 21.0732602 12.6504811 17.0439561 12.6504811"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

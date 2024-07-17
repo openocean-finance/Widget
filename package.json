@@ -1,0 +1,47 @@
+{
+  "name": "open-ocean",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build:test": "vue-cli-service build --mode test",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:release": "vue-cli-service build --mode release",
+    "build:widget": "vue-cli-service build --mode widget",
+    "fix-memory-limit": "cross-env LIMIT=8192 increase-memory-limit"
+  },
+  "dependencies": {
+    "@ont-dev/ontology-dapi": "^0.5.4",
+    "@openocean.finance/openocean-sdk": "^1.6.0",
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.0.0",
+    "copy-to-clipboard": "^3.3.1",
+    "core-js": "^3.26.0",
+    "ethers": "^5.0.26",
+    "ethers-multicall": "^0.2.2",
+    "ontology-ts-sdk": "^1.1.16",
+    "tua-body-scroll-lock": "^1.2.0",
+    "useless-files-webpack-plugin": "^1.0.1",
+    "vconsole": "^3.15.1",
+    "vue": "^2.6.11",
+    "vue-color": "^2.8.1",
+    "vue-cookies": "^1.7.4",
+    "vue-i18n": "^8.18.1",
+    "vue-meta": "^2.3.3",
+    "vue-qr": "^2.2.1",
+    "vue-router": "^3.1.5",
+    "web3": "^1.7.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "cross-env": "^5.0.5",
+    "increase-memory-limit": "^1.0.3",
+    "sass": "^1.35.1",
+    "sass-loader": "^7.3.1",
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

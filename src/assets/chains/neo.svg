@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>neo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="neo" fill-rule="nonzero">
+            <circle id="Oval" fill="#19E69C" cx="90" cy="90" r="90"></circle>
+            <g id="Pro-Neo" transform="translate(43.000000, 37.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="49.3781567 1.43613561e-15 0 18.3852941 0 88.4288872 45.0463594 105.058824 45.0463594 34.1441177 94 15.7588236"></polygon>
+                <polygon id="Fill-2" fill="#F0F0F0" points="48.3823529 36.2210394 48.3823529 73.4173586 94 89.8529412 94 19.3529412"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

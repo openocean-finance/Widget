@@ -1,0 +1,65 @@
+:root {
+  --space: 20px;
+  --radius-sm: 1px;
+  --radius: 4px;
+  --space-common: .3rem;
+  --space-common-negative: -.3rem;
+  --space-common-sm: .2rem;
+  --z-index-header: 3;
+  --z-index-mask: 13;
+  --z-index-toast: 9999999999;
+}
+
+:root {
+  --background_base: #eae8ef; 
+  --background_container: #fff; 
+  --background_interactive: #eae8ef; 
+  --background_uninteractive: #F7F6FA; 
+  --text_primary: #322B2E; 
+  --text_secondary: #A79EA7; 
+  --button_background_interactive: #fb534f; 
+  --button_text_interactive: #A79EA7; 
+  --button_background_uninteractive: #c6c3cf; 
+  --button_text_uninteractive: #fff; 
+  --success: #479a4b; 
+  --fail: #F6475D; 
+  --button_back: #AFA4AF; 
+  --button_back_bg: #EAE8EE; 
+  --button_chain_add: #AFA4AF; 
+  --button_chain_add_bg: #F7F6FA; 
+  .g-dark {
+    --background_base: #17122B; 
+    --background_container: #222037; 
+    --background_interactive: #17122b; 
+    --background_uninteractive: #29273D; 
+    --text_primary: #fff; 
+    --text_secondary: #8C7F8C; 
+    --button_background_interactive: #fb534f; 
+    --button_text_interactive: #fff; 
+    --button_background_uninteractive: #333147;
+    --button_text_uninteractive: #b1a7b1; 
+    --success: #479a4b; 
+    --fail: #F6475D;
+    --button_back: #857685;
+    --button_back_bg: #333147; 
+    --button_chain_add: #FFFFFF;
+    --button_chain_add_bg: #29273D;
+  }
+}
+
+.g-dark {
+
+  .g-dark-only {
+    display: inline-block;
+  }
+
+  .g-light-only {
+    display: none;
+  }
+}
+
+.g-light-only {}
+
+.g-dark-only {
+  display: none;
+}

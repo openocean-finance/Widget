@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bsc</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bsc" fill-rule="nonzero">
+            <circle fill-opacity="0.1" fill="#00ACE4" cx="15" cy="15" r="15"></circle>
+            <g id="logo" transform="translate(7.000000, 6.000000)" fill="#FFFFFF">
+                <path d="M8.00309954,0 L0,4.6209814 L0,13.8598482 L8.00309954,18.477733 L16,13.8598482 L16,4.6209814 L8.00309954,0 Z M13.6306627,12.4908978 L8.00309954,15.7398322 L2.37243608,12.4908978 L2.37243608,5.98683465 L8.00309954,2.73790027 L13.6306627,5.98683465 L13.6306627,12.4908978 Z" id="Shape"></path>
+                <polygon id="Path" points="11.7351929 11.3975957 8.00000236 13.5532281 4.26171466 11.3975957 4.26171466 7.08323386 8.00000236 4.92450434 11.7351929 7.08323386 10.1804121 7.98141401 8.00000236 6.72086463 5.81959263 7.98141401 5.81959263 10.4963184 8.00000236 11.7568678 10.1804121 10.4963184"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

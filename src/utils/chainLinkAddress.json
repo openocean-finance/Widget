@@ -1,0 +1,162 @@
+{
+  "ETH_Mainnet": [
+    {
+      "symbol": "WETH",
+      "decimal": 8,
+      "address": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+    },
+    {
+      "symbol": "LINK",
+      "decimal": 8,
+      "address": "0x396c5E36DD0a0F5a5D33dae44368D4193f69a1F0"
+    },
+    {
+      "symbol": "DOGE",
+      "decimal": 8,
+      "address": "0x2465CefD3b488BE410b941b1d4b2767088e2A028"
+    },
+    {
+      "symbol": "SAND",
+      "decimal": 8,
+      "address": "0x35E3f7E558C04cE7eEE1629258EcbbA03B36Ec56"
+    },
+    {
+      "symbol": "SUSHI",
+      "decimal": 8,
+      "address": "0xCc70F09A6CC17553b2E31954cD36E4A2d89501f7"
+    },
+    {
+      "symbol": "UNI",
+      "decimal": 8,
+      "address": "0x553303d460EE0afB37EdFf9bE42922D8FF63220e"
+    },
+    {
+      "symbol": "BTC",
+      "decimal": 8,
+      "address": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c"
+    },
+    {
+      "symbol": "APE",
+      "decimal": 8,
+      "address": "0xD10aBbC76679a20055E167BB80A24ac851b37056"
+    },
+    {
+      "symbol": "ANKR",
+      "decimal": 8,
+      "address": "0x7eed379bf00005CfeD29feD4009669dE9Bcc21ce"
+    }
+  ],
+  "BSC_Mainnet": [
+    {
+      "symbol": "ETH",
+      "decimal": 8,
+      "address": "0x9ef1B8c0E4F7dc8bF5719Ea496883DC6401d5b2e"
+    },
+    {
+      "symbol": "WBNB",
+      "decimal": 8,
+      "address": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE"
+    },
+    {
+      "symbol": "CAKE",
+      "decimal": 8,
+      "address": "0xB6064eD41d4f67e353768aA239cA86f4F73665a1"
+    },
+    {
+      "symbol": "AXS",
+      "decimal": 8,
+      "address": "0x7B49524ee5740c99435f52d731dFC94082fE61Ab"
+    },
+    {
+      "symbol": "LINK",
+      "decimal": 8,
+      "address": "0xca236E327F629f9Fc2c30A4E95775EbF0B89fac8"
+    },
+    {
+      "symbol": "DOGE",
+      "decimal": 8,
+      "address": "0x3AB0A0d137D4F946fBB19eecc6e92E64660231C8"
+    },
+    {
+      "symbol": "SHIB",
+      "decimal": 8,
+      "address": "0xA615Be6cb0f3F36A641858dB6F30B9242d0ABeD8"
+    }
+  ],
+  "POLYGON_Mainnet": [
+    {
+      "symbol": "WMATIC",
+      "decimal": 8,
+      "address": "0xAB594600376Ec9fD91F8e885dADF0CE036862dE0"
+    },
+    {
+      "symbol": "SAND",
+      "decimal": 8,
+      "address": "0x3D49406EDd4D52Fb7FFd25485f32E073b529C924"
+    },
+    {
+      "symbol": "LINK",
+      "decimal": 8,
+      "address": "0xd9FFdb71EbE7496cC440152d43986Aae0AB76665"
+    },
+    {
+      "symbol": "BTC",
+      "decimal": 8,
+      "address": "0xc907E116054Ad103354f2D350FD2514433D57F6f"
+    },
+    {
+      "symbol": "AAVE",
+      "decimal": 8,
+      "address": "0x72484B12719E23115761D5DA1646945632979bB6"
+    }
+  ],
+  "AVAX_Mainnet": [
+    {
+      "symbol": "WAVAX",
+      "decimal": 8,
+      "address": "0xcf667FB6Bd30c520A435391c50caDcDe15e5e12f"
+    },
+    {
+      "symbol": "JOE",
+      "decimal": 8,
+      "address": "0x02D35d3a8aC3e1626d3eE09A78Dd87286F5E8e3a"
+    },
+    {
+      "symbol": "QI",
+      "decimal": 8,
+      "address": "0x36E039e6391A5E7A7267650979fdf613f659be5D"
+    },
+    {
+      "symbol": "ETH",
+      "decimal": 8,
+      "address": "0x976B3D034E162d8bD72D6b9C989d545b839003b0"
+    }
+  ],
+  "FANTOM_Mainnet": [
+    {
+      "symbol": "WFTM",
+      "decimal": 8,
+      "address": "0xf4766552D15AE4d256Ad41B6cf2933482B0680dc"
+    },
+    {
+      "symbol": "ETH",
+      "decimal": 8,
+      "address": "0x11DdD3d147E5b83D01cee7070027092397d63658"
+    },
+    {
+      "symbol": "BOO",
+      "decimal": 8,
+      "address": "0xc8C80c17f05930876Ba7c1DD50D9186213496376"
+    },
+    {
+      "symbol": "BTC",
+      "decimal": 8,
+      "address": "0x8e94C22142F4A64b99022ccDd994f4e9EC86E4B4"
+    },
+    {
+      "symbol": "BNB",
+      "decimal": 8,
+      "address": "0x6dE70f4791C4151E00aD02e969bD900DC961f92a"
+    }
+  ]
+}

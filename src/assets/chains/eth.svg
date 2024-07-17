@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>eth</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eth" fill-rule="nonzero">
+            <circle id="Oval" fill="#6580EA" cx="90" cy="90" r="90"></circle>
+            <path d="M50.092104,96.9473682 L89.2499987,119.526398 L128.407894,96.9473682 L89.2499987,150 L50.092104,96.9473682 Z M89.2499987,75.4736842 L128.407894,92.0538882 L89.2499987,113.368421 L50.092104,92.0538882 L89.2499987,75.4736842 Z M89.2499987,30 L128.407894,91.894737 L89.2499987,74.968421 L50.092104,91.894737 L89.2499987,30 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

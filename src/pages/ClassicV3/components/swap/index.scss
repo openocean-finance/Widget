@@ -1,0 +1,30 @@
+.switch {
+  width: 34px;
+  height: 34px;
+  border-radius: 17px;
+  background: var(--background_container);
+  box-shadow: 0px 2px 6px 0px var(--background_base);
+  border: 1px solid var(--background_container);
+  box-sizing: border-box;
+  margin: -7px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+
+  i {
+    font-size: 20px;
+    transform: rotate(90deg);
+  }
+}
+
+.info-group {
+  margin-top: 15px;
+  padding: 0 20px 17px;
+  border-radius: 12px;
+  border: 1px solid var(--background_uninteractive);
+  @media (max-width:440px) {
+    margin-top: 20px;
+  }
+}

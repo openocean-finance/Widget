@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="30px" viewBox="0 0 26 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>onto logo_white</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1110.000000, -561.000000)" stroke="#000000" stroke-width="2">
+            <g transform="translate(735.000000, 350.000000)">
+                <g transform="translate(30.000000, 196.000000)">
+                    <g id="onto-logo_white" transform="translate(346.000000, 18.000000)">
+                        <polyline id="Stroke-1" points="23.9448785 23.9547103 0.014402343 0.0244999267 0.014402343 12.1540237"></polyline>
+                        <path d="M0.0145085881,11.9878248 C0.0142429075,15.0505813 1.1823739,18.1133379 3.51890162,20.4501313 C8.19169133,25.1229211 15.7678021,25.1229211 20.4403261,20.4501313 L3.51890162,3.52897263" id="Stroke-3"></path>
+                        <polyline id="Stroke-5" points="0.0147477867 0.0244733541 23.9449582 23.9546838 23.9449582 11.896477"></polyline>
+                        <path d="M23.9448785,11.9896583 C23.9448785,8.92743317 22.7767475,5.86520805 20.4404855,3.52894606 C15.7676958,-1.14357792 8.19185077,-1.14357792 3.51906106,3.52894606 L20.4404855,20.4501048" id="Stroke-7"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

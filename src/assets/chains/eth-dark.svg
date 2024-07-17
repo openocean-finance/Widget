@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="eth-dark" fill-rule="nonzero">
+            <circle fill="#6580EA" cx="15" cy="15" r="15"></circle>
+            <g transform="translate(8.348684, 5.000000)" fill="#FFFFFF">
+                <path d="M4.44089081e-16,11.1578947 L6.52631579,14.9210663 L13.0526316,11.1578947 L6.52631579,20 L4.44089081e-16,11.1578947 Z M6.52631579,7.57894737 L13.0526316,10.3423147 L6.52631579,13.8947368 L4.44089081e-16,10.3423147 L6.52631579,7.57894737 Z M6.52631579,8.88178385e-16 L13.0526316,10.3157895 L6.52631579,7.49473684 L4.44089081e-16,10.3157895 L6.52631579,8.88178385e-16 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

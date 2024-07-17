@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ontology</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ontology" fill-rule="nonzero">
+            <circle id="Oval" fill="#48A3FF" cx="90" cy="90" r="90"></circle>
+            <path d="M43.0246538,84.202173 L43.0246538,45.9624836 L120.551695,124.048279 C118.945279,125.375318 99.5984408,140.845804 76.5498609,133.966152 C56.5395029,127.959553 42.326212,107.565052 43.0246538,84.202173 Z M136.895234,95.6566187 L137,133.616931 L59.2285039,55.8105132 C60.8349201,54.4485516 80.1468362,38.9082213 103.195416,45.718029 C123.31054,51.6897065 137.593676,72.1540517 136.860312,95.6566187 L136.895234,95.6566187 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

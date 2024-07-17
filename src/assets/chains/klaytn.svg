@@ -1,0 +1,28 @@
+<svg width="180.000000" height="180.000000" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<g clip-path="url(#clip2_51)">
+		<mask id="mask2_54" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.902344" y="1.476562" width="177.630859" height="178.031250">
+			<rect id="rect" x="0.902344" y="1.476562" width="177.049194" height="177.049194" fill="#000000"/>
+		</mask>
+		<g mask="url(#mask2_54)">
+			<circle id="circle" cx="89.412109" cy="90.000000" r="88.524597" fill="url(#paint_linear_2_56_0)"/>
+			<circle id="circle" cx="89.412109" cy="90.000000" r="88.524597" fill="url(#paint_linear_2_57_0)"/>
+			<path id="path" d="M92.5898 1.53125L47.4785 120.289L146.121 22.0234C150.273 25.4922 154.105 29.3359 157.562 33.5L101.061 90L157.387 146.711C154.092 150.656 150.461 154.312 146.537 157.633L89.4121 100.875L32.6777 157.961C28.3965 154.383 24.457 150.406 20.918 146.086L70.7754 15.4531L1.03711 84.8047C3.72656 38.3359 42.2656 1.47656 89.4121 1.47656C90.4766 1.47656 91.5352 1.49219 92.5898 1.53125Z" fill-rule="nonzero" fill="#FFFFFF"/>
+		</g>
+	</g>
+	<defs>
+		<clipPath id="clip2_51">
+			<rect id="klaytn" width="180.000000" height="180.000000" fill="white"/>
+		</clipPath>
+		<linearGradient id="paint_linear_2_56_0" x1="155.790604" y1="29.211699" x2="39.738003" y2="152.369690" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FF8C00"/>
+			<stop offset="1.000000" stop-color="#780000"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_2_57_0" x1="64.606514" y1="63.553745" x2="155.790604" y2="154.737869" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#D30168" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#D30168"/>
+		</linearGradient>
+	</defs>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cronos</title>
+    <defs>
+        <linearGradient x1="6.33333333%" y1="92.5496964%" x2="93.3333333%" y2="5.54815257%" id="linearGradient-1">
+            <stop stop-color="#002D74" offset="0%"></stop>
+            <stop stop-color="#1199FA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cronos" fill-rule="nonzero">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="90" cy="90" r="90"></circle>
+            <path d="M90.0174349,38.0000033 L45,63.9930237 L45,115.961649 L90.0174349,141.937252 L135,115.961649 L135,63.9930237 L90.0174349,38.0000033 Z M121.672478,108.261303 L90.0174349,126.536559 L58.344953,108.261303 L58.344953,71.6759482 L90.0174349,53.4006923 L121.672478,71.6759482 L121.672478,108.261303 Z" id="Shape" fill="#FFFFFF"></path>
+            <polygon id="Path" fill="#FFFFFF" style="mix-blend-mode: multiply;" points="90.0174349 141.937252 135 115.961649 135 63.9930237 90.0174349 38.0000033 90.0174349 53.4180965 121.672478 71.6933698 121.672478 108.278725 90.0174349 126.536559"></polygon>
+            <polygon id="Path" fill="#FFFFFF" style="mix-blend-mode: multiply;" points="89.9825917 38 45.0000266 63.9756021 45.0000266 115.944228 89.9825917 141.937252 89.9825917 126.519138 58.3275314 108.243882 58.3275314 71.6585266 89.9825917 53.4006923"></polygon>
+            <polygon id="Path" fill="#FFFFFF" points="111.01046 102.111479 90.0000133 114.236911 68.9721449 102.111479 68.9721449 77.8431938 90.0000133 65.7003403 111.01046 77.8431938 102.264818 82.8954571 90.0000133 75.8048669 77.7352086 82.8954571 77.7352086 97.0417944 90.0000133 104.132385 102.264818 97.0417944"></polygon>
+        </g>
+    </g>
+</svg>
