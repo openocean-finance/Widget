@@ -25,7 +25,7 @@
             </div> -->
           </div>
         </div>
-        <Info label="You Save" :value="youSaveUsd" help="You Save" color="green" v-if="youSave != '--'" />
+        <Info label="You Save" :value="youSaveUsd" help="You Save" color="green"/>
       </div>
       <Banner v-if="!isEmbed" />
       <div class="copyright">
@@ -263,7 +263,7 @@ export default {
       const amountDecimals =
         value == balance
           ? balanceDecimals
-          :BigNumber(value).times(BigNumber(10).pow(decimals)).toFixed(0);
+          : BigNumber(value).times(BigNumber(10).pow(decimals)).toFixed(0);
       return {
         amount: value,
         amountDecimals,
@@ -339,6 +339,13 @@ export default {
       }
       state.fromToken.balance = short ? short + "" : "";
       state.fromToken.balanceDecimals = long;
+
+      let foken = state.tokenList.find(item => item.address == state.fromToken.address)
+      if (foken) {
+        foken.balance = state.fromToken.balance
+        foken.balanceDecimals = state.fromToken.balanceDecimals
+        foken.approve = state.fromToken.approve;
+      }
     },
     async getToTokenBalance () {
       if (!state.toToken.address) {
@@ -350,6 +357,12 @@ export default {
       );
       state.toToken.balance = short ? short + "" : "";
       state.toToken.balanceDecimals = long;
+
+      let foken = state.tokenList.find(item => item.address == state.toToken.address)
+      if (foken) {
+        foken.balance = state.toToken.balance
+        foken.balanceDecimals = state.toToken.balanceDecimals
+      }
     },
     setExchange (dexes, unSelected, inAmount, outAmout, outDecimals) {
       let temp = dexes.map((item) => {
@@ -413,7 +426,7 @@ export default {
       });
       state.exchangeList = temp;
     },
-    quote (auto) {
+    quote (isLoaing) {
       console.log('quote--------------')
       if (this.loading) return;
       if (!this.gasPrice) return;
@@ -438,9 +451,11 @@ export default {
         this.loading = false;
         return;
       }
-      if (!auto) {
+      if(!isLoaing){
         this.loading = true;
       }
+      state.toToken.value = 0
+      
       const unSelected = this.getDisabledDexIds();
       const slippage = +this.tolerance;
       this.$axios
@@ -456,7 +471,7 @@ export default {
             gasPrice: this.gasPrice,
             slippage: slippage * 100,
             disabledDexIds: unSelected.join(","),
-            connectors: localStorage.getItem("connectors")||''
+            connectors: localStorage.getItem("connectors") || ''
           })
         )
         .then(async (res) => {
@@ -486,7 +501,7 @@ export default {
             (outAmount &&
               BigNumber(outAmount)
                 .div(BigNumber(10).pow(outDecimals))
-                .decimalPlaces(4)
+                .decimalPlaces(6)
                 .toString()) ||
             "";
           this.estimatedGas = estimatedGas;
@@ -499,20 +514,23 @@ export default {
             outDecimals
           );
           state.toToken.value = _outAmout;
-          this.loading = false;
           this.quoteStatus = 1;
           await this.getTokenPrice(state.fromToken, state.toToken);
           await this.getNativeTokenPrice();
           await this.getBalanceOf();
           clearTimeout(this.timer);
           this.timer = setTimeout(async () => {
-            this.quote();
+            this.quote(true);
           }, 10000);
+
+          setTimeout(()=>{
+            this.loading = false;
+          },400)
         })
         .catch((e) => {
           this.loading = false;
           setTimeout(() => {
-            this.quote();
+            this.quote(true);
           }, 10000);
         });
     },
@@ -564,7 +582,7 @@ export default {
         referrer: this.$route.query.referrer || "0x3487ef9f9b36547e43268b8f0e2349a226c70b53",
         referrerFee: this.$route.query.referrer ? 100 : 0,
         referrerFeeShare: this.$route.query.referrer ? 1500 : 0,
-        connectors: localStorage.getItem("connectors")||''
+        connectors: localStorage.getItem("connectors") || ''
       }
       let referralName = localStorage.getItem('referralName')
       let referralAddress = localStorage.getItem('referralAddress')

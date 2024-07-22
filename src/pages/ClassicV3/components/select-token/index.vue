@@ -261,23 +261,23 @@ export default {
     },
     popularToken() {
       if(this.showNativeToken) {
-        return this.tokenList.filter((item) => {
+        return state.tokenList.filter((item) => {
           return item.hot === "01";
         });
       }
-      return this.tokenList.filter((item) => {
+      return state.tokenList.filter((item) => {
         return item.hot === "01" && !isNativeToken(this.chainName, item.address);
       });
     },
     allToken() {
       if (!this.query) {
-        let tokenList = JSON.parse(JSON.stringify(this.tokenList));
+        let tokenList = JSON.parse(JSON.stringify(state.tokenList));
         return tokenList.sort((a, b) => {
           return a.balance > b.balance ? -1 : 1;
         });
       }
       const _query = this.query.toLowerCase();
-      let tokenList = this.tokenList.filter((item) => {
+      let tokenList = state.tokenList.filter((item) => {
         return (
           item.symbol.toLowerCase().indexOf(_query) >= 0 ||
           item.address.toLowerCase() === _query
@@ -324,7 +324,7 @@ export default {
   },
   methods: {
     async getAllTokenBalance() {
-      await getBalances(this.tokenList);
+      await getBalances(state.tokenList);
       this.query = " ";
       this.$nextTick(() => {
         this.query = "";
@@ -413,8 +413,8 @@ export default {
         showToast(this.$t('custom_token_toast_2'));
         return
       }
-      console.log("tokenList", this.tokenList);
-      let token = this.tokenList.filter((item) => {
+      console.log("tokenList", state.tokenList);
+      let token = state.tokenList.filter((item) => {
         return item.address.toLowerCase() === contract_address.toLowerCase();
       });
       if (token && token.length) {
@@ -437,7 +437,7 @@ export default {
         custom: 1,
       };
       this.myTokenList.push(token);
-      this.tokenList.unshift(token);
+      state.tokenList.unshift(token);
       // this.tokenMap[token.address.toLowerCase()] = token
       window.localStorage.setItem(
         this.chainName + "_customtoken",
@@ -462,9 +462,9 @@ export default {
         JSON.stringify(list)
       );
       
-      let index = this.tokenList.findIndex(t => t.address === address)
+      let index = state.tokenList.findIndex(t => t.address === address)
       if(index >= 0) {
-        this.tokenList.splice(index, 1)
+        state.tokenList.splice(index, 1)
       }
 
       if (state.fromToken.address === address || state.toToken.address === address) {

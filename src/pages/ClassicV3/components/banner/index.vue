@@ -18,10 +18,10 @@ export default {
   data () {
     return {
       list: [
-        {
-          img: banner1,
-          href: "https://app.openocean.finance/portfolio/campaigns",
-        },
+        // {
+        //   img: banner1,
+        //   href: "https://app.openocean.finance/portfolio/campaigns",
+        // },
         {
           img: banner2,
           href: "https://app.openocean.finance",
@@ -56,7 +56,7 @@ export default {
   &__list {
     display: flex;
     flex-wrap: nowrap;
-    animation: move calc(var(--speed) * var(--s)) steps(var(--s)) infinite;
+    // animation: move calc(var(--speed) * var(--s)) steps(var(--s)) infinite;
   }
 
   &__item {
@@ -66,7 +66,7 @@ export default {
     box-sizing: border-box;
 
     white-space: nowrap;
-    animation: move1 calc(var(--speed)) infinite;
+    // animation: move1 calc(var(--speed)) infinite;
 
     img {
       width: 100%;

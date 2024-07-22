@@ -390,10 +390,10 @@ export default {
   font-size: 18px;
   position: relative;
   text-indent: -9999px;
-  border-top: 4px solid var(--classic-loader-border);
-  border-right: 4px solid var(--classic-loader-border);
-  border-bottom: 4px solid var(--classic-loader-border);
-  border-left: 4px solid var(--classic-loader-border-color);
+  border-top: 3px solid #171126;
+    border-right: 3px solid #171126;
+    border-bottom: 3px solid #171126;
+    border-left: 3px solid #FF6B18;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);

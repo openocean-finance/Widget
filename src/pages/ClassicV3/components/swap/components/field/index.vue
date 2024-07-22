@@ -102,13 +102,14 @@ export default {
     },
     chnageAmountMax (key) {
       if (this.from) {
+        let value=0
         if (key) {
-          this.token.value = this.token.balance
+          value = this.token.balance
         } else {
-          this.token.value = this.token.balance / 2
+          value = this.token.balance / 2
         }
         this.changeRoute({
-          amount: this.token.value
+          amount: value
         })
       }
     },

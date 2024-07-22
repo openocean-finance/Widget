@@ -227,7 +227,7 @@ export default {
       window.localStorage.setItem("ClassicTab", code);
     },
     quote () {
-      this.$refs.swap.quote(true);
+      this.$refs.swap.quote();
     },
     connect (isConnected) {
       if (isConnected) {
@@ -255,32 +255,35 @@ export default {
       }
 
       await this.getToken(query.chain);
-
       const fromToken = this.findTokenBySymbol(query.fromSymbol);
       const toToken = this.findTokenBySymbol(query.toSymbol);
       if (fromToken && toToken) {
         state.fromToken = {
-          ...fromToken, 
           ...{
             approve: 0,
+            balance: 0,
+            balanceDecimals: 0,
+          },
+          ...fromToken, 
+          ...{
             price: 0,
             usd: 0,
-            balance: 0,
             usdtValue: 0,
             value: query.amount || 1,
-            balanceDecimals: 0,
           }
         }
         state.toToken = {
-          ...toToken, 
           ...{
             approve: 0,
+            balance: 0,
+            balanceDecimals: 0,
+          },
+          ...toToken, 
+          ...{
             price: 0,
             usd: 0,
-            balance: 0,
             usdtValue: 0,
             value: 0,
-            balanceDecimals: 0,
           }
         }
 
@@ -295,7 +298,7 @@ export default {
     },
     findTokenBySymbol (symbol) {
       symbol = symbol.toUpperCase();
-      const result = this.tokenList.find(item => {
+      const result = state.tokenList.find(item => {
         return item.symbol.toUpperCase() == symbol;
       });
       return result;

@@ -263,7 +263,7 @@ export default {
         });
     },
     addtoken (item) {
-      this.tokenList.unshift(item);
+      state.tokenList.unshift(item);
       // this.tokenMap[item.address.toLowerCase()] = item
     },
 

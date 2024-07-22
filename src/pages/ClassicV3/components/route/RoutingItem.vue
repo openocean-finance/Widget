@@ -21,6 +21,8 @@
 
 
 <script>
+import { contract as state, loadLimitDefaultToken } from "@/contract";
+
 export default {
   name: "RoutingItem",
   components: {},
@@ -61,14 +63,14 @@ export default {
       return `https://ethapi.openocean.finance/asset/${dex.toLowerCase()}.png`;
     },
     getTokenIconBySymbol(symbol) {
-      const item = this.tokenList.filter((item) => {
+      const item = state.tokenList.filter((item) => {
         return item.symbol === symbol;
       });
       const { icon, address } = (item && item[0]) || {};
       return icon || this.walletLogo + this.toLowerCase(address) + ".png";
     },
     getTokenIconByAddress(address) {
-      const item = this.tokenList.filter((item) => {
+      const item = state.tokenList.filter((item) => {
         return this.toLowerCase(item.address) === this.toLowerCase(address);
       });
       return (
@@ -77,7 +79,7 @@ export default {
       );
     },
     getTokenByAddress(address) {
-      const item = this.tokenList.filter((item) => {
+      const item = state.tokenList.filter((item) => {
         return this.toLowerCase(item.address) === this.toLowerCase(address);
       });
       return (item && item[0] && item[0].symbol) || "";

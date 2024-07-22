@@ -32,6 +32,7 @@ export default {
   methods: {
     changeRoute,
     async getToken (chain) {
+      if (state.tokenList && state.tokenList[0] && state.tokenList[0].chain == chain) return
       let res = await this.$axios
         .get(`v2/${chain}/token`, { cache: true, expire: 300000 })
       const { data } = res || {};
@@ -39,6 +40,9 @@ export default {
       let tokenList = data.map((item) => {
         item.id = item.code || "";
         item.icon = item.icon;
+        item.balance = 0
+        item.balanceDecimals = 0
+
         tokenMap[item.address.toLowerCase()] = item;
         return item;
       });
